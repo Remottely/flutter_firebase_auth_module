@@ -1,6 +1,6 @@
 import 'package:intl/intl.dart';
 import 'package:flutter_firebase_auth_module/flutter_firebase_auth_module.dart';
-import 'package:mewnu_core/mewnu_core.dart';
+import 'package:flutter_core_module/flutter_core_module.dart';
 import 'package:mobx/mobx.dart';
 
 part 'sign_up_presenter.g.dart';

@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter_firebase_auth_module/flutter_firebase_auth_module.dart';
-import 'package:mewnu_core/mewnu_core.dart';
+import 'package:flutter_core_module/flutter_core_module.dart';
 
 class RemoteSendRecoverPasswordUseCase implements ISendRecoverPasswordUseCase {
   final IFirebaseAuthClient auth;

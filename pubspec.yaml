@@ -14,8 +14,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  mewnu_core:       
-    path: '../../core' 
+  flutter_core_module:       
+    path: '../flutter_core_module' 
   flutter_lints: ^2.0.0
   flutter_mobx: ^2.0.2
 

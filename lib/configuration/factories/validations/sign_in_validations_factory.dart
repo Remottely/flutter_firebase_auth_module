@@ -1,4 +1,4 @@
-import 'package:mewnu_core/mewnu_core.dart';
+import 'package:flutter_core_module/flutter_core_module.dart';
 
 IValidation signInValidationsFactory() =>
     ValidationComposite(signInValidationsFieldsFactory());
