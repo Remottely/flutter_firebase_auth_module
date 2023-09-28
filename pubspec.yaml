@@ -11,9 +11,13 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_core_module:
-    path: '../flutter_core_module' 
+    # path: '../flutter_core_module' 
+    git:
+      url: https://github.com/Remottely/flutter_core_module.git
+      ref: main
   flutter_mobx: ^2.1.0
-
+  firebase_auth: ^4.10.0
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -5,3 +5,4 @@ export 'data/data.dart';
 export 'domain/domain.dart';
 export 'presentation/presentation.dart';
 export 'ui/ui.dart';
+export '_external_packages.dart';

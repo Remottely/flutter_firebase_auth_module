@@ -1,0 +1,1 @@
+export 'package:flutter_core_module/flutter_core_module.dart';
