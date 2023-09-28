@@ -35,17 +35,18 @@ class _SignInViewState extends State<SignInView>
         //     streamView: widget.presenter.navigateToStream, clear: true);
 
         return MewnuScaffold(
-          backgroundImage: const MewnuStaticBackgroundImage(
-            imagePath: 'assets/modules/splash/png/dark/bar-5.jpg',
-            filterOpacity: 0.86,
-          ),
+          // backgroundImage: const MewnuStaticBackgroundImage(
+          //   imagePath: 'assets/modules/splash/png/dark/bar-5.jpg',
+          //   filterOpacity: 0.86,
+          // ),
           body: Stack(
             children: [
               Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  const MewnuBigLogo(),
+                  // const MewnuBigLogo(),
+                  Container(),
                   MewnuFlatButton(
                     onPressed: widget.presenter.navigateToSignUp,
                     child: const Text(

@@ -30,10 +30,10 @@ class _SignUpViewState extends State<SignUpView>
             streamView: widget.presenter.navigateToStream, clear: true);
 
         return MewnuScaffold(
-          backgroundImage: const MewnuStaticBackgroundImage(
-            imagePath: 'assets/modules/splash/png/dark/bar-5.jpg',
-            filterOpacity: 0.86,
-          ),
+          // backgroundImage: const MewnuStaticBackgroundImage(
+          //   imagePath: 'assets/modules/splash/png/dark/bar-5.jpg',
+          //   filterOpacity: 0.86,
+          // ),
           body: Stack(
             children: [
               Column(
