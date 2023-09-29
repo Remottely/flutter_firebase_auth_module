@@ -4,8 +4,8 @@ import 'package:mobx/mobx.dart';
 
 part 'sign_in_presenter.g.dart';
 
-class SignInPresenter extends _SignInPresenterBase with _$SignInPresenter {
-  SignInPresenter(
+class SignInPagePresenter extends _SignInPresenterBase with _$SignInPresenter {
+  SignInPagePresenter(
       {required IValidation validation,
       required ISignInEmailPasswordUseCase remoteSignIn}) {
     super.validation = validation;
@@ -15,7 +15,7 @@ class SignInPresenter extends _SignInPresenterBase with _$SignInPresenter {
 
 abstract class _SignInPresenterBase
     with Store, AppManager, NavigationPresenterManager
-    implements ISignInPresenter {
+    implements ISignInPagePresenter {
   @override
   late final IValidation validation;
   @override

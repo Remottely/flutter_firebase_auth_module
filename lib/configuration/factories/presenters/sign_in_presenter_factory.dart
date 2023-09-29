@@ -1,6 +1,6 @@
 import 'package:flutter_firebase_auth_module/flutter_firebase_auth_module.dart';
 
-ISignInPresenter signInPresenterFactory() => SignInPresenter(
+ISignInPagePresenter signInPagePresenterFactory() => SignInPagePresenter(
       remoteSignIn: remoteSignInEmailPasswordUseCaseFactory(),
       validation: signInValidationsFactory(),
     );

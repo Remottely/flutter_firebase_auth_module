@@ -3,16 +3,18 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_firebase_auth_module/flutter_firebase_auth_module.dart';
 import 'package:flutter_core_module/flutter_core_module.dart';
 
-class SignInView extends StatefulWidget {
-  final ISignInPresenter presenter;
+class SignInPage extends StatefulWidget {
+  String get currentPath => '/sign-in';
+  
+  final ISignInPagePresenter presenter;
 
-  const SignInView(this.presenter, {super.key});
+  const SignInPage(this.presenter, {super.key});
 
   @override
-  State<SignInView> createState() => _SignInViewState();
+  State<SignInPage> createState() => _SignInPageState();
 }
 
-class _SignInViewState extends State<SignInView>
+class _SignInPageState extends State<SignInPage>
     with
         LoadingManager,
         KeyboardManager,

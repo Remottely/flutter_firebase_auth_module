@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Flutter",
+            "name": "Evenire",
             "type": "dart",
             "request": "launch",
             "program": "evenire_project/evenire_app/lib/main.dart"
